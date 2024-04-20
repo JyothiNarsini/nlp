@@ -1,12 +1,12 @@
-**SE23MAID015-A3.zip** file consists of 4 folders named codes, data, models, word_vectors.
-- codes folder consists of 2 files fastText_code.ipynb & word2vec_code.ipynb
-- data folder consists of dataset "aclimdb"
-- model folder consists of 2 files fasttext_model.npy and word2vec_model.npy(files where trained models are stored)
-- word_vectors folder consists of 2 .txt files - word_vectors_fastText.txt and word_vectors_word2vec.txt which consists of word embeddings
+**SE23MAID012-A3.zip** file consists of 4 folders named Coding, Dataset, Models, Word_vectors.
+- Coding folder consists of 2 files fastText_code.ipynb & word2vec_code.ipynb
+- Dataset folder consists of dataset "aclimdb"
+- Models consists of 2 files FastTextModel.npy and Word2VecModel.npy(files where trained models are stored)
+- Word_vectors folder consists of 2 .txt files - word_vectors_fastText.txt and word_vectors_word2vec.txt which consists of word embeddings
 
 **How to execute .ipynb files**
 1. open any one of the file say for one ex.fastText_code.ipynb which consists of 2 codes in 2 differnt cells.
-2. First code is the one which is used to generate the word vectors from fastText model. Those word vectors are stored in a file named "word_vectors_fastText.txt" and the model is stored in a file "fasttext_model.npy".
+2. First code is the one which is used to generate the word vectors from fastText model. Those word vectors are stored in a file named "word_vectors_fastText.txt" and the model is stored in a file "FastTextModel.npy".
 3. The second code is to train the rnn model for sentiment classification task using the pre-trained model and word embeddings/word vectors. Thernn model is trained and then  tested using the test data and loss is calculated after every epoch.
 4. The Evaluation metrics like Accuracy, precision, recall and f1-score is printed.
 
@@ -14,13 +14,13 @@ The same method is followed for the other model like word2vec.
 
 **Paths of Directories**
 >> Word2vec:
-  1. Training word2vec : C:\\Users\\bhavy\\OneDrive\\nlp\\data\\aclImdb\\train
-  2. Loading word embedding for RNN : C:\\Users\\bhavy\\OneDrive\\nlp\\data\\aclImdb\\train\\word_vectors_word2vec.txt
-  3. Testing RNN : C:\\Users\\bhavy\\OneDrive\\nlp\\data\\aclImdb\\test
+  1. Training word2vec : C:\Users\home\Desktop\SE23MAID012-A3\Dataset\aclImdb\train
+  2. Loading word embedding for RNN : C:\Users\home\Desktop\SE23MAID012-A3\Word_vectors\\word_vectors_word2vec.txt
+  3. Testing RNN : C:\Users\home\Desktop\SE23MAID012-A3\Dataset\aclImdb\test
 >>FastText:
-  1. Training word2vec : C:\\Users\\bhavy\\OneDrive\\nlp\\data\\aclImdb\\train
-  2. Loading word embedding for RNN : C:\\Users\\bhavy\\OneDrive\\nlp\\data\\aclImdb\\train\\word_vectors_fastText.txt
-  3. Testing RNN : C:\\Users\\bhavy\\OneDrive\\nlp\\data\\aclImdb\\test
+  1. Training word2vec :  C:\Users\home\Desktop\SE23MAID012-A3\Dataset\aclImdb\train
+  2. Loading word embedding for RNN :  C:\Users\home\Desktop\SE23MAID012-A3\Word_vectors\\word_vectors_fastText.txt
+  3. Testing RNN :C:\Users\home\Desktop\SE23MAID012-A3\Dataset\aclImdb\test
 
 
 **RNN model output using fastext model**
